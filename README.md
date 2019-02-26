@@ -2,7 +2,7 @@
 
 At work, I often find myself looking at huge excel fomrulae with lot of cell addresses being refered in them. Without any exageration, some of the formulae that I see have more than 50 other cell addresses being refered in them. It becomes extremely difficult to make sense of logic of these formula due to the information being lost in the cell addresses. That's why, I created this plug-in which helps me define name ranges for columns, and then convert all the formula to their variable representation to make them instantly readable with two clicks of mouse.
 
-An example may be, when you look at something like "= $M9 * $N9 * $N9 * $O9 * 0.001" It becomes difficult to guess what is being done here. But using the plug-in, you can convert it to something like "= Capacitance_nF_Col_M * Voltage_V_Col_N* * *Voltage_V_Col_N* * *Frequency_MHz_Col_O * 0.001" . This instantly tells you, its a P=CV<sup>2</sup>f equation for power calculation.
+An example may be, when you look at something like "= $M9 * $N9 * $N9 * $O9 * 0.001" It becomes difficult to guess what is being done here. But using the plug-in, you can convert it to something like "= Capacitance_nF_Col_M * Voltage_V_Col_N* * Voltage_V_Col_N * Frequency_MHz_Col_O * 0.001" . This instantly tells you, its a P=CV<sup>2</sup>f equation for power calculation.
 
 ## Demo
 
@@ -15,7 +15,7 @@ Download or git-clone the DemystifyFormula.xlam file. Keep it in a location whic
 
 ### Add Plugin to Excel 
 1. Make sure you have Developer's tab visible in Excel. If not visible, On the File tab, go to Options > Customize Ribbon. Under Customize the Ribbon and under Main Tabs, select the Developer check box.
-2. Open an Excel workbook and Go to Developer –> Add-ins –> Excel Add-ins
+2. Open an Excel workbook and Go to Developer â€“> Add-ins â€“> Excel Add-ins
 3. In the Add-ins dialogue box, browse and locate the DemystifyFormula.xlam file that you saved, and click OK.
 At this point CopyAsTable, CopyAsCSV, CopyAsYaml Macros are added to your excel.
 
