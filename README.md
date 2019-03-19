@@ -30,7 +30,7 @@ At this point, you should have the three ribbon buttons set-up and ready to use.
 
 
 ## One last thing ...
-If you have to deal with Excel formulae as much as I do, do visit this awesome website which will significantly improve your ability to make sense of excel formula's by beautifying them: http://excelformulabeautifier.com
+If you have to deal with Excel formulae as much as I do, do visit this awesome website which will significantly improve your ability to make sense of excel formulae by beautifying them: http://excelformulabeautifier.com
 
 
 ## License
